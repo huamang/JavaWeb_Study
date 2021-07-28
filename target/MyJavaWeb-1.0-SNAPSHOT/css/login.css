@@ -1,0 +1,35 @@
+.box{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width: 400px;
+    border-top: 2px solid #6777EF;
+    background-color: white;
+    box-shadow: 0 3px 3px gray;
+    margin:100px auto;
+    border-radius:6px;
+}
+
+.form{
+    border: 1px solid #ced4da;
+    height: 42px;
+    width: 90%;
+    font-size: 14px;
+    border-radius:6px;
+}
+
+.submit{
+    margin: 20px 0;
+    background: #03a9f4;
+    padding:15px 20px;
+    width: 90%;
+    color:white;
+    box-shadow: 0 2px 6px #acb5f6;
+    border: 1px solid transparent;
+    border-radius:10px;
+}
+
+.title{
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 18px;
+}

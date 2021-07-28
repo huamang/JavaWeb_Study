@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="CH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="./css/register.css">
+    <link rel="stylesheet" type="text/css" href="./css/background.css">
+</head>
+<body>
+    <div class="box">
+        <div class="title" >注册</div>
+        <div class="section">
+            <form name="MyForm" method="POST" action="/registerServlet">
+                <div class= "input">
+                    <label name="username">用户名</label><br>
+                    <input type="text" name="username" class="form">
+                </div>
+                <div>
+                    <label name="password">密码</label><br>
+                    <input type="password" name="passwd" class="form">
+                </div>
+                <div>
+                    <input type="submit" name="submit" value="注册" class="submit">
+                </div>    
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆</title>
+    <link rel="stylesheet" type="text/css" href="./css/background.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+<body>
+    <div class="box">
+        <div class="title" >登陆</div>
+        <div class="section">
+            <form name="MyForm" method="POST" action="/loginServlet">
+                <div>
+                    <label name="username">用户名</label><br>
+                    <input type="text" name="username" class="form">
+                </div>
+                <div>
+                    <label name="password">密码</label><br>
+                    <input type="password" name="passwd" class="form">
+                </div>
+                <div>
+                    <input type="submit" name="submit" value="登陆" class="submit">
+                </div>    
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

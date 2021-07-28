@@ -1,0 +1,28 @@
+
+nav{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    float:inline-start;
+    padding:16px
+}
+
+#logo_name{
+    padding-top: 5px;
+    font-size: 1.2rem;
+    float: left;
+    font-weight: 900;
+}
+
+.menu_item{
+    float: right;
+    height: 20px;
+    padding: 5px 0.7rem  0.7rem;
+    margin-right: 0.7rem;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-weight: bl;
+}
+
