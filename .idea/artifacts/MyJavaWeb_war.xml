@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyJavaWeb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MyJavaWeb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MyJavaWeb-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MyJavaWeb:war exploded" />
+    </root>
+  </artifact>
+</component>
