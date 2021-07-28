@@ -51,6 +51,7 @@ public class LoginServlet extends HttpServlet {
         // 判断返回值，转发到结果servlet，如果查询成功还要存储数据到Request域
         if (returnUser == null){
             req.getRequestDispatcher("/failServlet").forward(req,resp);
+//            resp.sendRedirect("/test2.html");
         }else {
             // 存储数据到Request域
             req.setAttribute("userinfo",user);
